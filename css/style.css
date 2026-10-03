@@ -1,0 +1,146 @@
+body {
+  background-color: #eef1f6;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #2d3748;
+  margin: 0;
+  padding: 40px 15px;
+}
+
+.page {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.panel {
+  background-color: #ffffff;
+  border-top: 6px solid #4a6fa5;
+  border-radius: 8px;
+  padding: 25px 28px 32px 28px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #334e68;
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+
+.input-area {
+  margin-bottom: 12px;
+}
+
+#taskInput {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #b8c4d6;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.btn-group button {
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 9px 15px;
+}
+
+#addTaskBtn {
+  background-color: #4a6fa5;
+  color: #ffffff;
+  border: none;
+  margin-right: 6px;
+}
+
+#addTaskBtn:hover {
+  background-color: #3a587f;
+}
+
+#loadSamplesBtn {
+  background-color: #ffffff;
+  color: #4a6fa5;
+  border: 1px solid #4a6fa5;
+}
+
+#loadSamplesBtn:hover {
+  background-color: #e6ecf5;
+}
+
+#taskMessage {
+  color: #b23b3b;
+  font-size: 14px;
+  min-height: 18px;
+  margin: 8px 0;
+}
+
+.summary {
+  border: 1px dashed #b8c4d6;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  color: #3a587f;
+}
+
+.summary span {
+  margin-right: 16px;
+}
+
+#taskList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-item {
+  background-color: #f7f9fc;
+  border-left: 4px solid #4a6fa5;
+  border-radius: 4px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+
+.task-text {
+  margin-right: 10px;
+}
+
+.task-item.completed {
+  border-left-color: #7a9a7a;
+}
+
+.task-item.completed .task-text {
+  text-decoration: line-through;
+  color: #94a3b8;
+}
+
+.task-item button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  font-size: 13px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid #c3cfe0;
+  background-color: #ffffff;
+}
+
+.complete-btn:hover {
+  background-color: #dff0df;
+}
+
+.edit-btn:hover {
+  background-color: #fff2cc;
+}
+
+.remove-btn:hover {
+  background-color: #f7d6d6;
+}
+
+.edit-input {
+  padding: 6px;
+  font-size: 14px;
+  border: 1px solid #4a6fa5;
+  border-radius: 4px;
+  margin-right: 10px;
+}
